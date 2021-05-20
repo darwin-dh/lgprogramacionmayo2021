@@ -1,0 +1,38 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#c2c2c2;
+	font-size:16px;
+	font-family: arial;
+}
+.contenedor{
+	max-width:1300px;
+	width: 90%;
+	margin:auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	color: #fff;
+}
+header{
+	width: 100%;
+	background: #FE7A6B;
+}
+.aside-left{
+	width: 20%;
+	background: yellow;
+}
+main{
+	width: 60%;
+	background: #684E7D;
+}
+aside{
+	width: 20%;
+	background: #BBDEFA;
+}
+footer{
+	width: 100%;
+	background: #000;
+}

@@ -1,0 +1,19 @@
+/* asi se llama a las etiquetas
+con el nombre de la etiqueta
+y {} dentro de las llaves indicamos
+el atributo y valor
+*/
+h2{
+
+color:red;
+
+}
+/**llamar id con # y el nombre
+de la id {}*/
+#titulo1{
+
+	color:#549564;
+}
+.parrafo{
+	color:aqua;
+}

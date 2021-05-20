@@ -1,0 +1,25 @@
+p{
+
+}
+/*.llamar class*/
+.texto{}
+/*#llamar id*/
+#textos{}
+.caja1{}
+.caja1 p {}
+.caja1 h2 {}
+.caja2{}
+.caja2 div{}
+.caja2 div p,h2{
+	color:#1b70e0;
+	font-size: 20px;
+	font-family: arial;
+}
+.caja3{
+	width: 400px;
+	height: 400px;
+	background: #1b70e0;
+}
+.caja3 img{
+	width: 100%;
+}

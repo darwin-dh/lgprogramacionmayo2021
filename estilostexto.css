@@ -1,0 +1,49 @@
+/**
+atributo color define un color a las letras
+*/
+
+h1{
+	color:red;
+}
+/* #nombre de la id */
+#verde{
+	color:green;
+}
+/* .nombre de la clase */
+.colormorado{
+	color:#4608ad;
+}
+/**
+font-size : define el tamaño de letra en 
+px = pixeles
+font-weight: define el grosor de la letra
+de 100 a 900
+line-height: define la separacion de los parrafos;
+font-family: define la fuente
+font-variant: cambie de mayusca a minisculas
+background : define un fondo;
+*/
+/*
+p{
+	color:#fff;
+	font-size:25px;
+	font-weight:500;
+	line-height: 48px;
+	font-family: arial;
+	font-variant: normal;
+	background: #be0027;
+}*/
+div{
+	width: 250px;
+	height: 275px;
+	background: #1d2e3e;
+	margin-bottom: 20px;
+}
+/*margin: define margenes externos*/
+/*padding: define el relleño*/
+.Texto{
+	color:#fff;
+	font-size: 15px;
+	line-height: 25px;
+	padding: 20px;
+}

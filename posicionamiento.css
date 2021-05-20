@@ -1,0 +1,56 @@
+/* "*" significa todo el documento*/
+*{
+	margin:0;
+	padding:0; 
+}
+body{
+	background:#f2f2f2;
+}
+.caja{
+	width:200px;
+	height:200px;
+	background:#f92472;
+	margin: 20px;
+}
+.b-5{
+	border: 5px solid;
+}
+
+.circulo{
+	border-radius:100px; 
+}
+/*relative: nos permite mover una caja de posicion original*/
+/*top: ;
+left: ;
+bottom: ;
+right: ; solo funcional con el position*/
+.relativo{
+position:relative;
+top: ;
+left:200px;
+bottom: ;
+right: ;
+}
+/*absolute sobrepone del resto de sus contenedor*/
+.absoluto{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	bottom: 50px;
+	background: red;
+}
+/*fixed: convierte en fija a un 
+contenedor sobre nuestra pantalla*/
+.fijo{
+	position:fixed;
+	left: 200px;
+}
+
+/*float:convierte un conetenedor en flotante*/
+.flotante{
+	float:left;
+	background: yellow;
+}
+.normal{
+	position: normal;
+}

@@ -1,0 +1,9 @@
+Consultar
+las pseudo clases,elemtos en css
+y realizar un ejemplo
+hover:a{
+	color:white;
+}
+active::a{
+	color:white;
+}

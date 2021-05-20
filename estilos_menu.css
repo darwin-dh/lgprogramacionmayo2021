@@ -1,0 +1,66 @@
+body{
+	
+}
+.menu{
+	background: rgba(0,0,0,0.5);
+	padding: 20px;
+
+}
+.menu a{
+	text-decoration: none;
+	margin-left: 20px;	
+	color:#fff;
+
+}
+.menu a:hover{
+	text-decoration:underline;
+}
+1. dar un background al menu
+2. quitar el estilo de la lista
+3. poner en una fila ha las tag li
+4. quitar la linea de las tag a
+5. hover a tag
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+*text-decoration: none -> sin decoracion
+*/
+h1{
+	text-decoration: underline;
+}
+h2{
+	text-decoration:line-through;
+}
+/*
+text-decoration: underline; crea linea en la parte inferior
+*/
+h3{
+	text-decoration: overline;
+}
+/*
+text-decoration: overline; crea linea en la parte superior
+*/
+h4{
+	text-decoration: underline overline;
+}
+/*
+ text-decoration: overline; crea linea en la parte inferior superior
+*/

@@ -1,0 +1,33 @@
+/*
+2em = 20PX = 3*20= 60PX
+*/
+/*Medida relativa*/
+/*
+pixeles -> px
+porcentaje -> %
+rem -> depende del tamaño dado al body
+em -> depende un contenedo padre
+*/
+body{
+	background:#f2f2f2;
+	font-size:20px;
+}	
+p{
+	font-size:3em;
+	font-family: arial;
+	color:#fff;
+}
+div{
+	font-size: 20px;
+	width:226mm;
+	height: 226mm;
+	background: #1e333e;
+}
+.hola2{
+	font-size: 2em;
+}
+
+/**Unidadas Absolutas**/
+/*in = pulgadas*/
+/*cm = centimetros*/
+/*mm = milimetros*/

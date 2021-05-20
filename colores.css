@@ -1,0 +1,50 @@
+h2{
+	color:Teal;
+}
+/*hexdecimales estan compues de 6 numeros*/
+b{
+	color:#89CFF0;
+}
+/*
+r -> rojos
+g -> verdes
+b -> azules
+a -> opacidad
+*/
+strong{
+	color: rgba(137, 207, 240, 0.8);
+}
+i{
+	color:rgba(50%,25%,75%,80%);
+}
+/*
+text align 
+alinear centro,derecha,iziquiera
+*/
+div{
+	text-align: right;
+}
+p{
+	color:rgba(0,0,0,0.8);
+	text-align:center;
+}
+ul{
+	list-style:none;
+}
+
+
+
+
+
+
+
+
+
+Quitar el estilos de las listas
+
+graficos
+lista cambiar
+circulo
+cuadrado
+
+numericos

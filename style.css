@@ -1,0 +1,54 @@
+/*.caja{	
+	width: 250px;	
+	height: 250px;	
+	background: #2b579a;		
+}
+.bordes{
+	border:1px solid #000;
+	border-radius: 5px;
+}*/
+
+body{
+	background: #c2c2c2;
+
+}
+#caja1 .cajahijo p{
+	width: 300px;
+	height: 300px;
+	background: #ff9800;
+	margin-bottom: 5px;
+}
+.caja2{
+	background: #0353D7;
+	width: 200px;
+	margin:20px;
+	margin-top:20px;
+	margin-bottom: 20px;
+	margin-left: ;
+	margin-right: ;
+	padding: 20px;
+}
+.caja2 p{
+	background: #eee5e9;!important
+
+
+}
+.caja3{
+	width: 300px;
+	background: #fff;
+	border-radius: 5px;
+	padding: 20px;
+
+}
+.caja3 img{
+	width: 100%;
+}
+.caja3 h2{
+	color: rgba( 0, 0, 56,0.8);
+	text-align: center;
+}
+.caja3 p{
+	line-height: 25px;
+	color: #FB8500;
+ 
+}
