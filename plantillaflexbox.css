@@ -1,0 +1,60 @@
+*{
+	margin:0;
+	padding: 0;
+}
+/**
+background-repeat :no-repeat,repeat-x,repeat-y,reapeat;
+background-size:auto, 1000px 100px,100% 25%,cover,contian;
+background-attachment: fixed scroll;
+background-position:50px 200px
+left top
+left center
+left bottom
+right top
+right center
+right bottom
+center top
+center center
+center bottom; 
+*/
+body{
+	font-family:open sans;
+	background:url('img/fondo.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	/*background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position:center bottom;*/
+}
+.contenedor{
+	max-width: 1300px;
+	width: 90%;
+	margin:auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap; 
+	padding-top: 40px;
+}
+header{
+ width: 100%;
+ padding:20px; 
+ padding-top: 5px;
+ background: rgba(0, 0, 0, 0.6);
+ display: flex;
+ flex-direction: row;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:space-between;
+}
+header .logo img{
+	border-radius: 100px;
+}
+header .menu a{
+	color:#fff;
+	text-decoration: none;
+	margin-right: 40px;
+	font-size: 18px;
+}
+header .menu a:hover{
+	text-decoration: underline;
+}
