@@ -1,6 +1,10 @@
 *{
 	margin:0;
 	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+
 }
 /**
 background-repeat :no-repeat,repeat-x,repeat-y,reapeat;
@@ -57,4 +61,66 @@ header .menu a{
 }
 header .menu a:hover{
 	text-decoration: underline;
+}
+main{
+	background: #fff;
+	padding: 20px;
+	width: 70%;
+}
+main article .logo2{
+	margin-bottom: 20px;
+	text-align: center;
+}
+main article .logo2 img{
+	width: 50%;
+
+}
+
+main article h2{
+	margin-bottom:20px;
+	font-weight: normal;
+	font-size: 30px;
+}
+main article p{
+	margin-bottom:20px;
+	font-size:15px;
+	line-height: 27px;
+}
+aside{
+	width: 30%;
+	background: #537dca;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	align-items: center;
+	padding: 20px;
+}
+aside .ad{
+	background: #FF5733 ;
+	font-size:30px;
+	text-align: center;
+	padding:50px 0;
+
+}
+footer{
+	width: 100%;
+	background: rgba(255,255,255,0.2);
+	margin-top:20px;
+	padding: 20px;
+	margin-bottom: 20px;
+	color:#fff;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:space-around;
+}
+footer .redes-sociales a{
+	color:#fff;
+	text-decoration: none;
+	margin-left: 20px;
+}
+footer .redes-sociales a:hover{
+	text-decoration: underline;
+	padding-top: 5px;
 }
