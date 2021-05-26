@@ -124,3 +124,37 @@ footer .redes-sociales a:hover{
 	text-decoration: underline;
 	padding-top: 5px;
 }
+/**Medias quereis**/
+@media screen and (max-width:1200px){
+	main{
+	width: 100%;
+	}
+	aside{
+		width: 100%;
+		flex-direction: row;
+	}
+	main article h2{
+	text-align: center;
+	font-size: 32px;
+}
+}
+@media screen and (max-width:580px){
+	header .logo img{
+	max-width: 100px;
+	width: 100%;
+}
+header .menu {
+	text-align: center;
+}
+
+aside .ad{
+	width: 100%;
+	margin-top: 10px;
+
+}
+
+
+
+
+
+}
