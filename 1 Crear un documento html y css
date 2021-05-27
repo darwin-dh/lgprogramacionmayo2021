@@ -1,0 +1,13 @@
+1 Crear un documento html y css
+2 vincular el html con css
+3 crear 4 cajas 
+		 dar estilo
+		 ancho de 300px
+		 alto de 300px
+		 fondo #ffbd59
+		 margen 20px
+5 caja1 posicionamiento relativo mover de la izquiera 100px
+6 caja2 posicionamiento absoluto mover arrbia 0	
+7 caja3 posicionamiento fixed mover izquiera 100px arrbia 300px
+8 caja4 posicionamiento flotante a la derecha
+9 cada caja debe tener diferentes fondos	 
