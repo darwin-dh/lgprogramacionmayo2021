@@ -48,3 +48,21 @@ body{
 	background: #4fb568;
 	color: #fff;
 }
+.whatsapp{
+	width: 75px;
+	margin: 5px;
+	background: #ece5dd;
+	padding: 25px 20px;
+	position: fixed;
+	top: 0;
+}
+.whatsapp i{
+	color: #075e54;
+	font-size: 50px;
+	margin: 5px;
+
+}
+.whatsapp i:hover{
+	color: red;
+	cursor: pointer;
+}
