@@ -9,15 +9,26 @@ body{
 	background-repeat: no-repeat;
 }
 header{
-	background:#000;
-	width: 100%;
-	max-width: 1300px;
-	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%
 }
-header a{
-	text-decoration: none;
-	margin-left: 20px;
-	color: #fff;
-	padding: 20px;
-	display: inline-block;
+main{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%
+}
+aside{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%
+}
+footer{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%
 }
