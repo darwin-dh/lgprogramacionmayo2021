@@ -1,0 +1,23 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: url('../img/fondo.jpg');
+	background-size: 1000px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+header{
+	background:#000;
+	width: 100%;
+	max-width: 1300px;
+	margin: auto;
+}
+header a{
+	text-decoration: none;
+	margin-left: 20px;
+	color: #fff;
+	padding: 20px;
+	display: inline-block;
+}
