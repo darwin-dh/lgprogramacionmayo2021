@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	margin-top: 50px;
+}
+header ul {
+	list-style: none;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a{
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+	padding: 25px;
+}
+header ul li a:hover{
+	background: rgba(0,0,56, 0.9);
+
+}
+header ul li ul{
+	display: none;
+}
+header ul li:hover > ul{
+	display: block;
+	transition:All 2.1462s ease;
+}
+.textos {
+	background-color: #000;
+	color: #fff;
+	width: 400px;
+	position: absolute;
+	top:100px;
+	padding: 25px 25px;
+	border-radius: 5px;
+	border: 2px solid #fff;
+
+}
+.textos:hover{
+		transition:All 2.1462s ease;
+}
